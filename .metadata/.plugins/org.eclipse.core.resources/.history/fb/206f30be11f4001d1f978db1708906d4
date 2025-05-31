@@ -1,0 +1,30 @@
+
+
+import java.util.ArrayList;
+
+public class Main {
+	
+	  public static void main(String[] args) {
+		  Lapin l1 = new Lapin("lapin", 1);
+		  Loup lo1 = new Loup("loup",1);
+		  l1.mangeable("carotte", 2);
+		  l1.mangeable("laittue", 3);
+		  l1.mangeable("souris",1);
+		  lo1.mangeable("Lapin", 0);
+		  /*
+		  l1.catalogue_nourriture.add("carotte");
+		  l1.catalogue_nourriture.add("laitue");
+		  l1.catalogue_nourriture.add("souris");
+		  */
+		  Souris s1 = new Souris("souris", 1);
+		  Carotte C1 = new Carotte("carotte",10);
+		  Laittue lai1 = new Laittue("laittue",50);
+		  
+		  l1.se_nourrir(C1);
+		  
+		  
+		  
+		  
+	  }
+
+}

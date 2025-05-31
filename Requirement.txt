@@ -1,0 +1,79 @@
+R.0 : Modéliser un écosystème complexe
+
+R.1: Modéliser 3 zones géographique
+	R.1.0 : Commencer la modélisation avec une partie égale de zones forêt et plaines
+	R.1.1: Forêt (Eau : 100%-75% / Température : tempéré (12 à 25°C))
+	R.1.2 : Plaine (Eau : 75%-35% / Température : (18 à 35°C))
+	R.1.3 : Désert (Eau : 35%-5% / Température : Désertique (40 à 55°C)
+	R.1.4 : Donner la possibilité de basculer d'une environnement à un autre si une case évolue en terme de % d'eau et de temp
+		R.1.4.1 : Forêt <---> Plaine (Perte ou Gain d'arbre)
+		R.1.4.2 : Plaine ---> Desert (Asséchement et perte partielle d'arbre/vegetation) Changement irréversible
+
+R.2: Modéliser la faune sauvage et vegétal
+	R.2.1 : Insectes/Mamifères/Oiseaux
+		R.2.1.1 : Insectes (Une classe objet pour representer l'ensemble de la population (Ex: Une classe fourmi représente toutes les fourmi d'une case), mais le deplacement fais appel à 3 Var aléatoire dont une pour determiné le % de fourmi se deplaçant.
+			
+	R.2.2 : Representer des mamifères carnivores et herbivores
+		R.2.2.1 : Une interface pour representer ça
+	R.2.3 : Végetaux (Arbres ou vivaces)
+	R.2.4 : Un animal = un objet (Pour les animaux assez dense), cependant pour les insectes Une classe = l'ensemble de la pop (Sinon, c'est trop complexe)
+	
+
+R.3 : Modéliser les besoin de la faune
+	R.3.1 : Definition de la température critique ainsi que du niveau d'eau critique avant ça mort
+	R.3.2 : Herbivores (Niveau eau/temp/nourriture vivaces)
+	R.3.3 : Carnivores (Niveau eau/temp/nourriture autre animaux (Spé à chaque espèces)
+	R.3.4 : Défnir les omnivores
+	R.3.5 : Définir la chaînes alimentaires (Paire proie/prédateur)
+		R.3.5.1 : Reciprocité du couple, définir un prédateur définit dans le même temps une proie.
+	R.3.6 : Definir la methode pour manger un animal
+		R.3.6.1 : Prendre en compte deux choses d'une part si l'animal peut mangé ce qu'il veut mangé. D'une autre est ce qu'il en reste.
+	
+R.4 : Définir le système de reproduction (Rappel : il est non-genré pour simplifier)
+	R.4.1 : Effet de proximité pour la vegetation : Une case avec beaucoup d'abres à des cases voisines avec beaucoups d'arbres
+		R.4.2 : Definir une limite pour atteindre l'effet de zone 
+
+R.5 : Définir les déplacement des animaux 
+	R.5.1 : Définir le mode de déplacement de chaque animal en fonction de sa spécifité (Vol/Marche )
+	
+R.6 : Etablir des règles 
+	R.6.1 : Coder une methode pour tuer un animal/vegetaux
+	
+R.7 : Stay simple, lance toi dans le code/ Utiliser des interfaces pour rassembler des propriété communes / Utiliser les classes abstract pour éviter que les dites classe soient instanciables.
+
+
+
+Reste :  - Déplacement
+- Fct actualiser la température/eau (!!! Evaporation !!!)
+-Chgt de zone vv (!!! Classe Arbre / Mammiferes / Oiseau / Insectes!!!)
+- Effet de zone (Arbre)
+- Fct Actualisation (Update) Env/  Zone / Pr chaque animaux / Pr chaque Vegetal
+
+
+
+
+
+
+
+2 interfaces Proie/Proie[Animaux]
+
+Fonction pour suprr un animal pour chaque 
+appel la proie fct dans proie auto-remove
+
+Qte ??? (Interfaces petit/Moyen/Grand)
+
+
+
+
+	
+Gerer les erreur
+public static int fact (int n) throws 
+{
+	if(n<0)
+		return -1 (A ne pas faire, un user tier peut utiliser -1 comme valeur de de fact (Tout en oubliant de tester la valeur de retour de fact)
+	int r=1
+	while(n!=0)
+	{
+	
+		 
+1 - Controle sur main (Mais c'est pas fais pour)

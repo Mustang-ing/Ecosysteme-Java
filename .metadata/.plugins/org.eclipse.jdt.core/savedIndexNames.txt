@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+/home/mustang/Bureau/Sup_Galilee/Java/Projet/.metadata/.plugins/org.eclipse.jdt.core
+1162783489.index
+3472222047.index
+1865797976.index
+2607394912.index

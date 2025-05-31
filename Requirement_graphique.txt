@@ -1,0 +1,13 @@
+R.0 : Proposer une interface graphique pour montrer l'évolution de la simultation
+
+R.1 : 
+
+- Deux types de plaçements des animaux possible
+	- Fixe 
+	-Dynamique : Disposé un disque 
+
+- Un point = un type d'animal
+	- Plus le point est gros plus la pop
+	-Taille normalisé suivant la plus grande pop d'une case
+	- Opt (Représenter les animaux en jpg)
+	 
